@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+  }
+
+.backend {
+    box-sizing: border-box;
+    width: 1200px;
+    height: 750px;
+    background-color: white;
+    margin: auto;
+    margin-top: 100px;
+}
+  
+  nav {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .brand {
+    margin: 0;
+    font-size: 18px;
+    margin-left: 15px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: lightslategray;
+    font-size: 18px;
+    
+  }
+  
+ 
+  
+  .line {
+    width: 97%;
+    height: 1px;
+    background-color: lightgray;
+    margin-left: 17px;
+  }
+
+  .submenu {
+    text-decoration: none;
+    color: lightslategray;
+    font-size: 18px;
+    margin-left: 35px;
+    display: flex;
+    
+  }
+  .active {
+    color: black;
+    margin-left: 6px;
+  }
+
+  .specs {
+    display: flex;
+    
+
+  }
+
+ 
+  
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1.1fr); 
+    grid-auto-rows: 100px;
+    
+  }
+  
+ 
+  
+  .item1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+  }
+
+  .item1 img {
+    width: 91%;
+    height: 190%;
+    margin-left: 4%;
+    
+    
+  }
+  
+  .item2 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    margin-top: 75%;
+    
+  }
+
+  .item2 img {
+    width: 82%;
+    height: auto;
+    margin-left: 12%;
+    
+  }
+  
+  .item3 {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    margin-top: 75%;
+    margin-left: 7%;
+    margin-right: 7%;
+    
+    
+  }
+
+  .item3 img {
+    width: 96%;
+    height: auto;
+    
+  }
+
+  .item4 {
+    grid-column-start: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    margin-top: 75%;
+    
+    
+    
+  }
+
+  .item4 img {
+    width: 84%;
+    height: auto;
+    
+    
+  }
+
+  .details {
+    margin-right: 5%;
+  }
+
+  article {
+    text-align: justify;
+    color: gray;
+    margin-left: 5%;
+    margin-top: 7%;
+    font-size: 105%;
+    line-height: 130%;
+  }
+
+  button {
+    background-color: black;
+    color: white;
+    margin-left: 5%;
+    margin-top: 7%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
+    font-size: 120%;
+  }
+
+  .name {
+    margin-left: 5%;
+  }
+
+  .price {
+    margin-left: 5%;
+  }
